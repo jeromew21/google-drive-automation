@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 import sys
 import os
-
-os.chdir("/home/jerome/DriveAutomation")
-
 from drive_automation import *
+
+#In case the script is located elsewhere
+os.chdir("/home/jerome/DriveAutomation") 
 
 if __name__ == "__main__":
     args = sys.argv[1:]
